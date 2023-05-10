@@ -15,7 +15,13 @@ ANDROID_HOME filepath
 C:\Users\Administrator\AppData\Local\Android\Sdk\tools
 C:\Users\Administrator\AppData\Local\Android\Sdk\platform-tools
 
-pip3 install -U uiautomator2
-python3 -m uiautomator2 init
+pip install -U uiautomator2
+python -m uiautomator2 init
 set PYTHONUTF8=1
-pip3 install --pre --upgrade weditor
+pip install --pre --upgrade weditor
+
+
+使用指令：
+adb devices
+python -m uiautomator2 init
+python -m weditor
