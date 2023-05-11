@@ -53,7 +53,7 @@ if __name__ == "__main__":
 
     if d(text="提交订单").exists(timeout=5):
         # 勾选实名
-        for i in range(1, 4):
-            d.xpath(f'//*[@resource-id="cn.damai:id/recycler_main"]/android.widget.LinearLayout[{i}]/android.widget.CheckBox[1]').click()
+        # for i in range(1, 4):
+            # d.xpath(f'//*[@resource-id="cn.damai:id/recycler_main"]/android.widget.LinearLayout[{i}]/android.widget.CheckBox[1]').click()
 
-        # d(text="提交订单").click()
+        d(text="提交订单").click()
